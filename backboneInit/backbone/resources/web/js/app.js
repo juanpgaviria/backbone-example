@@ -1,4 +1,4 @@
 (function ($){
- 	
+ 	window.Todo = Backbone.Model.extend({});	
 
- })(JQuery);
+ })(jQuery);
