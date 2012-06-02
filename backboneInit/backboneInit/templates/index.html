@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Startup Weekend Manager</title>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="google-site-verification" content="-08lWHK3ItmeCVwzgnPEF_ADabqJhQbUdIYzBoKKY9M" />
+    <!-- Le styles -->
+    <link href="/media/web/css/bootstrap/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/media/web/css/bootstrap/bootstrap-responsive.css" rel="stylesheet">
+	
+	<link href="/media/web/css/jquery.tweet.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+	<!-- bootstrap datepicker http://www.eyecon.ro/bootstrap-datepicker/ -->
+	<link href="/media/web/css/bootstrap/datepicker.css" rel="stylesheet">
+	 
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/media/web/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/media/web/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/media/web/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/media/web/ico/apple-touch-icon-57-precomposed.png">
+	
+	<!-- custom style -->
+	<link href="/media/web/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Backbone</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    	<div class="content">
+    		<div class="wrapper" >
+    			<div class="proper-content" id="wrapper">
+		      	</div><!-- /.proper-content -->
+				
+    		</div>
+			<div class="footer-wrapper">				
+				<footer class="container">
+					<hr>
+				    <p>
+				        &copy; Company 2012				
+				    </p>
+				</footer>
+			</div>
+		</div>
+    </div> <!-- /container -->	
+	<div class="modal hide" id="loading">
+	  
+	</div>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="/media/web/js/libs/modernizr-2.0.min.js"></script>
+	<script src="/media/web/js/libs/respond.min.js"></script>
+
+   	<!-- JQUERY -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/media/web/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+
+	<!-- Bootstrap -->
+    <script src="/media/web/js/bootstrap/bootstrap-transition.js"></script>
+    <script src="/media/web/js/bootstrap/bootstrap-alert.js"></script>
+    <script src="/media/web/js/bootstrap/bootstrap-modal.js"></script>
+    <script src="/media/web/js/bootstrap/bootstrap-dropdown.js"></script>
+    <script src="/media/web/js/bootstrap/bootstrap-scrollspy.js"></script>
+    <script src="/media/web/js/bootstrap/bootstrap-tab.js"></script>
+    <script src="/media/web/js/bootstrap/bootstrap-tooltip.js"></script>
+    <script src="/media/web/js/bootstrap/bootstrap-popover.js"></script>
+    <script src="/media/web/js/bootstrap/bootstrap-button.js"></script>
+    <script src="/media/web/js/bootstrap/bootstrap-collapse.js"></script>
+    <script src="/media/web/js/bootstrap/bootstrap-carousel.js"></script>
+    <script src="/media/web/js/bootstrap/bootstrap-typeahead.js"></script>
+	<script src="/media/web/js/bootstrap/bootstrap-datepicker.js"></script>
+	
+	<!-- Backbone.js -->
+	<script src="/media/web/js/libs/underscore-min.js"></script>
+	<script src="/media/web/js/libs/json2.js"></script>	
+	<script src="/media/web/js/libs/backbone.js"></script>
+
+	<!-- app -->
+	<script src="/media/web/js/app.js"></script>
+	
+	
+	<!-- templates -->
+	<script src="/web/templates.js"></script>	
+
+		
+	<!-- backbone start -->
+	<script type="text/javascript">
+		$(document).ready(function (){
+			App.init();
+		});
+	</script>
+
+
+  </body>
+</html>
